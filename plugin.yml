@@ -1,0 +1,15 @@
+---
+name: HomeBoundaries
+version: 0.0.1
+main: jschnettler\HomeBoundaries\Main
+api: [5.13.0]
+src-namespace-prefix: jschnettler\HomeBoundaries
+commands:
+    plot:
+        description: House plot command
+        usage: '/plot'
+        permission: homeboundaries.command.plot
+permissions:
+    homeboundaries.command.plot:
+        description: Allows players to use the /plot command to set plot boundaries.
+        default: true
